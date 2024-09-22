@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 83a90ec08b41fa2489bde11e3109e45b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - angelClosed: {fileID: 6520792243985925347, guid: 692820bb5bb75af49b94c641e33e8150, type: 3}
+  - angelOpen: {fileID: 6520792243985925347, guid: 692820bb5bb75af49b94c641e33e8150, type: 3}
+  - angel: {instanceID: 0}
+  - player: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
