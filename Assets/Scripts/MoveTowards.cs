@@ -5,8 +5,8 @@ using UnityEngine.Device;
 
 public class MoveTowards : MonoBehaviour
 {
-    public GameObject Angel; //sphere
-    public GameObject Player; //cube
+    
+    private GameObject player; 
 
     public float speed;
 
@@ -16,6 +16,8 @@ public class MoveTowards : MonoBehaviour
     void Start()
     {
         cam = FindObjectOfType<Camera>();
+        player = GameObject.FindWithTag("Player");
+
     }
 
     // Update is called once per frame
@@ -41,7 +43,7 @@ public class MoveTowards : MonoBehaviour
 
     void AngelMove()
     {
-        Angel.transform.position = Vector3.MoveTowards(Angel.transform.position, Player.transform.position, speed);
+       transform.position = Vector3.MoveTowards(transform.position, player.transform.position, speed);
     }
 
     private bool CheckVisibility()
