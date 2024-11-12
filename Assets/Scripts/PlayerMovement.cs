@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 12f;
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         float verticalInput = Input.GetAxisRaw("Vertical");
